@@ -6,7 +6,7 @@ import Link from 'next/link';
 const HomePage = () => {
     const [data, setData] = useState([]);
 useEffect(() => {
-    fetch('http://localhost:3000/api/blog').then(res=> res.json()).then(data=>setData(data))
+    fetch('https://topia-next.vercel.app/api/blog').then(res=> res.json()).then(data=>setData(data))
 
   
 }, [data])

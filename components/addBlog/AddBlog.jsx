@@ -19,7 +19,7 @@ const AddBlog = () => {
  }
  const handleSubmit = (e)=>{
   e.preventDefault()
- axios.post("http://localhost:3000/api/blog",blogData).then((res)=>console.log(res.data));
+ axios.post("https://topia-next.vercel.app/api/blog",blogData).then((res)=>console.log(res.data));
  router.push('/', { scroll: false })
  }
  
