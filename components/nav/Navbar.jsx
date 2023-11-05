@@ -1,13 +1,13 @@
 import Image from 'next/image'
 import React from 'react'
-import blog from "../../public/images/blog.png"
+
 import style from "./nav.module.css"
 import Link from 'next/link'
 const Navbar = () => {
   return (
 <nav className={style.nav} >
 <div className={style.imgCont}>
-    <Image src={blog} className={style.logo}/>
+    <Image src="/images/blog.png" className={style.logo} width={200} height={50}/>
 </div>
 <ul className={style.menu}>
     <li><Link href="/">Home</Link></li>
