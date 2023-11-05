@@ -5,8 +5,7 @@ const uri = process.env.MONGO_URI.replace("<password>", process.env.DB_PASSWORD)
 const options = {
  useNewUrlParser: true,
  useUnifiedTopology: true,
- useCreateIndex: true,
- useFindAndModify: false,
+ 
 };
 
 mongoose.connect(uri, options);
