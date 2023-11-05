@@ -1,0 +1,21 @@
+/* import tailwind files */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    list-style: none;
+}
+
+body {
+    /* background-color: rgb(200, 6, 6); */
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    
+}
+
