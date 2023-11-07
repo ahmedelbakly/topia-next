@@ -20,7 +20,7 @@ useEffect(() => {
 
         <div>
         <h2 className="text-black text-3xl mb-3">{blog.title}</h2>
-        <p className="text-black text-2xl ">{blog.description}</p>
+        <p className="text-black text-2xl ">{blog.description.slice(0,50)}</p>
         </div>
         </Link>
         <Button  id= {blog._id}/>

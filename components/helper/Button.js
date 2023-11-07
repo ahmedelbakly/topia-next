@@ -8,7 +8,7 @@ const Button = ({id}) => {
  
 
     const handleDelete = ()=>{
-        axios.delete(`http://localhost:3000/api/blog/`+ id).then((res)=>console.log(res.data));
+        axios.delete(`https://topia-next.vercel.app/api/blog/`+ id).then((res)=>console.log(res.data));
          router.push('/', { scroll: false })
     }
   return (
