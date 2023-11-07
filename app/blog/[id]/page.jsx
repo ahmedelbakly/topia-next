@@ -6,7 +6,7 @@ export const metadata = {
 }
 const BlogDetails = async ({ params }) => {
   const id = params.id;
-  const res = await fetch(`http://localhost:3000/api/blog/${id}`);
+  const res = await fetch(`https://topia-next.vercel.app/api/blog/${id}`);
   const data = await res.json();
   console.log(data);
   return (
